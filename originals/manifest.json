@@ -1,0 +1,469 @@
+{
+  "title": "ASTERISK TRUNK WITH TLS AND SRTP SUPPORT – veřejné zdrojové přílohy",
+  "generated_at_utc": "2026-11-22T21:00:01+00:00",
+  "security_note": "Soukromé klíče a autentizační údaje nejsou publikovány. PCAP jsou binárně věrné originálům.",
+  "config_selection": "Pouze pjsip.conf, extensions.conf, jejich pracovní zálohy a upravené /etc/hosts; rtp.conf jen s volbou --include-rtp-conf. Výchozí *.conf se neexportují.",
+  "excluded_unrelated_file_count": 238,
+  "files": [
+    {
+      "exported_path": "asterisk1/etc/asterisk/backup-plain/extensions.conf",
+      "source_path": "etc/asterisk/backup-plain/extensions.conf",
+      "sha256": "fa9f51a4ee1f90c9e75cb55dbf5d24a570aee064d08bbed7eeff66843f7e1b3b",
+      "source_sha256": "fa9f51a4ee1f90c9e75cb55dbf5d24a570aee064d08bbed7eeff66843f7e1b3b",
+      "size_bytes": 637,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/backup-plain/pjsip.conf",
+      "source_path": "etc/asterisk/backup-plain/pjsip.conf",
+      "sha256": "1d53d2b8eb77c21cf1e4ae3ee6788ddf2b6406cc62e54fb7074b7328c12e1a99",
+      "source_sha256": "e80cdbd832a5955b9073fd175ee0e495e14a5dffa9b63b417be88696a00c7c81",
+      "size_bytes": 1227,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/extensions.conf",
+      "source_path": "etc/asterisk/extensions.conf",
+      "sha256": "fa9f51a4ee1f90c9e75cb55dbf5d24a570aee064d08bbed7eeff66843f7e1b3b",
+      "source_sha256": "fa9f51a4ee1f90c9e75cb55dbf5d24a570aee064d08bbed7eeff66843f7e1b3b",
+      "size_bytes": 637,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/extensions.conf.before-srtp",
+      "source_path": "etc/asterisk/extensions.conf.before-srtp",
+      "sha256": "fa9f51a4ee1f90c9e75cb55dbf5d24a570aee064d08bbed7eeff66843f7e1b3b",
+      "source_sha256": "fa9f51a4ee1f90c9e75cb55dbf5d24a570aee064d08bbed7eeff66843f7e1b3b",
+      "size_bytes": 637,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/keys/asterisk1.crt",
+      "source_path": "etc/asterisk/keys/asterisk1.crt",
+      "sha256": "b02a7bc401faadbfba1f38f3bdca6938db202b4c88b326fd19615b2b19893bd6",
+      "source_sha256": "b02a7bc401faadbfba1f38f3bdca6938db202b4c88b326fd19615b2b19893bd6",
+      "size_bytes": 1411,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/keys/ca.crt",
+      "source_path": "etc/asterisk/keys/ca.crt",
+      "sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "source_sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "size_bytes": 1513,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/pjsip.conf",
+      "source_path": "etc/asterisk/pjsip.conf",
+      "sha256": "a151ed5e39384e9af31c2ac65811f2f7b320610b8189132c0993ab641dd1b6d7",
+      "source_sha256": "d3250fc0bc6bfcbead0c0460e777041d86d959ad80474cfbc5ae214dd3e2531d",
+      "size_bytes": 1670,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/pjsip.conf.before-srtp",
+      "source_path": "etc/asterisk/pjsip.conf.before-srtp",
+      "sha256": "4d96150e7e87ca0dae50d868cdb4e3079eaeb224d114a20c7830dd40e90dd582",
+      "source_sha256": "b590ef43c59589cd19d627b79cdc6a1b92e259abed920341651e546b489b3689",
+      "size_bytes": 1617,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/pjsip.conf.before-tls",
+      "source_path": "etc/asterisk/pjsip.conf.before-tls",
+      "sha256": "1d53d2b8eb77c21cf1e4ae3ee6788ddf2b6406cc62e54fb7074b7328c12e1a99",
+      "source_sha256": "e80cdbd832a5955b9073fd175ee0e495e14a5dffa9b63b417be88696a00c7c81",
+      "size_bytes": 1227,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk1/etc/asterisk/pjsip.conf.tls-srtp-alaw",
+      "source_path": "etc/asterisk/pjsip.conf.tls-srtp-alaw",
+      "sha256": "30123fba48475b4b874e77ad2fd7b324d8ee2e9bbf5f64e9f22ac3d625b7c740",
+      "source_sha256": "94be11ab66ff3bf3abfd23be6b5c0c23bc3826c4bc264b954beb30e9a3dfdb3c",
+      "size_bytes": 1671,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk1/etc/hosts",
+      "source_path": "etc/hosts",
+      "sha256": "39a0ac8695899ada86e27db564d0384c108cc176502027b6149d892c729179d2",
+      "source_sha256": "39a0ac8695899ada86e27db564d0384c108cc176502027b6149d892c729179d2",
+      "size_bytes": 330,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-measurements/encrypted/asterisk1_cpu_ram.txt",
+      "source_path": "home/kuribam/asterisk-measurements/encrypted/asterisk1_cpu_ram.txt",
+      "sha256": "0736d09a90289579b277e93dbe83ff3674a31c01f304779dd2e5981dc5562bc6",
+      "source_sha256": "0736d09a90289579b277e93dbe83ff3674a31c01f304779dd2e5981dc5562bc6",
+      "size_bytes": 30116,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-measurements/encrypted/asterisk1_encrypted.pcap",
+      "source_path": "home/kuribam/asterisk-measurements/encrypted/asterisk1_encrypted.pcap",
+      "sha256": "48a13aa295d306c5a8d4f271b5445b40618ca435848cc9c0e48644a9a48ec7d8",
+      "source_sha256": "48a13aa295d306c5a8d4f271b5445b40618ca435848cc9c0e48644a9a48ec7d8",
+      "size_bytes": 2461456,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-measurements/gsm/asterisk1_cpu_ram.txt",
+      "source_path": "home/kuribam/asterisk-measurements/gsm/asterisk1_cpu_ram.txt",
+      "sha256": "601f86fc47cd83737a9029f3eaef42cfb3be93fb3238481353dc71a1d181d370",
+      "source_sha256": "601f86fc47cd83737a9029f3eaef42cfb3be93fb3238481353dc71a1d181d370",
+      "size_bytes": 30116,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-measurements/gsm/asterisk1_gsm.pcap",
+      "source_path": "home/kuribam/asterisk-measurements/gsm/asterisk1_gsm.pcap",
+      "sha256": "881c825e4446ce997416bd7ccddd1aee670a5fcf9ab14d1275e966626a0d53a7",
+      "source_sha256": "881c825e4446ce997416bd7ccddd1aee670a5fcf9ab14d1275e966626a0d53a7",
+      "size_bytes": 1291394,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-measurements/plain/asterisk1_cpu_ram.txt",
+      "source_path": "home/kuribam/asterisk-measurements/plain/asterisk1_cpu_ram.txt",
+      "sha256": "50bff39a6e1dcaef2bf7789939301325bd6c2695bc0e939e0db6a4c02e6831bc",
+      "source_sha256": "50bff39a6e1dcaef2bf7789939301325bd6c2695bc0e939e0db6a4c02e6831bc",
+      "size_bytes": 30116,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-measurements/plain/asterisk1_plain.pcap",
+      "source_path": "home/kuribam/asterisk-measurements/plain/asterisk1_plain.pcap",
+      "sha256": "0e333d51f270874575d5a1381ff30231304a6e7cae479b94e0b2622a05d1ae6d",
+      "source_sha256": "0e333d51f270874575d5a1381ff30231304a6e7cae479b94e0b2622a05d1ae6d",
+      "size_bytes": 1869629,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-pki/asterisk1.crt",
+      "source_path": "home/kuribam/asterisk-pki/asterisk1.crt",
+      "sha256": "b02a7bc401faadbfba1f38f3bdca6938db202b4c88b326fd19615b2b19893bd6",
+      "source_sha256": "b02a7bc401faadbfba1f38f3bdca6938db202b4c88b326fd19615b2b19893bd6",
+      "size_bytes": 1411,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-pki/asterisk1.csr",
+      "source_path": "home/kuribam/asterisk-pki/asterisk1.csr",
+      "sha256": "11d287b842b1da6c0858de3a23eed6fd73af72c41c0856846c297b189bba3b0f",
+      "source_sha256": "11d287b842b1da6c0858de3a23eed6fd73af72c41c0856846c297b189bba3b0f",
+      "size_bytes": 895,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-pki/asterisk1.ext",
+      "source_path": "home/kuribam/asterisk-pki/asterisk1.ext",
+      "sha256": "beec3d060442a297996a071e637f87114416fd765f27a6d61e0cd6463205d607",
+      "source_sha256": "beec3d060442a297996a071e637f87114416fd765f27a6d61e0cd6463205d607",
+      "size_bytes": 245,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-pki/asterisk2.crt",
+      "source_path": "home/kuribam/asterisk-pki/asterisk2.crt",
+      "sha256": "48045646da33a330a1ac06fce6abb45d4ba37f2a8016a206939d68bcdf964cec",
+      "source_sha256": "48045646da33a330a1ac06fce6abb45d4ba37f2a8016a206939d68bcdf964cec",
+      "size_bytes": 1411,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-pki/asterisk2.csr",
+      "source_path": "home/kuribam/asterisk-pki/asterisk2.csr",
+      "sha256": "126d723a579172b31d3c2f10fe710ad731b740ad1dea8f66d897cecac38a0f17",
+      "source_sha256": "126d723a579172b31d3c2f10fe710ad731b740ad1dea8f66d897cecac38a0f17",
+      "size_bytes": 895,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-pki/asterisk2.ext",
+      "source_path": "home/kuribam/asterisk-pki/asterisk2.ext",
+      "sha256": "7646ed0da9e0420274e5fd89bb23c87e7bbbb3cecacda6d6fd39731441f1125c",
+      "source_sha256": "7646ed0da9e0420274e5fd89bb23c87e7bbbb3cecacda6d6fd39731441f1125c",
+      "size_bytes": 245,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/home/kuribam/asterisk-pki/ca.crt",
+      "source_path": "home/kuribam/asterisk-pki/ca.crt",
+      "sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "source_sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "size_bytes": 1513,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/root/asterisk-lab-ca/ca.crt",
+      "source_path": "root/asterisk-lab-ca/ca.crt",
+      "sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "source_sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "size_bytes": 1513,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/var/log/asterisk/cdr-csv/Master.csv",
+      "source_path": "var/log/asterisk/cdr-csv/Master.csv",
+      "sha256": "32419a8aba6080ef89fc82d0653d1f024eb0fa37a4e40e8d57fcb009ff713443",
+      "source_sha256": "32419a8aba6080ef89fc82d0653d1f024eb0fa37a4e40e8d57fcb009ff713443",
+      "size_bytes": 5236,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/var/log/asterisk/messages.log",
+      "source_path": "var/log/asterisk/messages.log",
+      "sha256": "50d413ce4acec4ada1c5ee7e6fa0cc49b3fa3406eba2ed18d079bbcad8c063b0",
+      "source_sha256": "50d413ce4acec4ada1c5ee7e6fa0cc49b3fa3406eba2ed18d079bbcad8c063b0",
+      "size_bytes": 49134,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk1/var/log/asterisk/queue_log",
+      "source_path": "var/log/asterisk/queue_log",
+      "sha256": "008b3878fcd2677239fb2e0c031af09b3b30bb9c281073f1ba04f7d2c02ab4f7",
+      "source_sha256": "008b3878fcd2677239fb2e0c031af09b3b30bb9c281073f1ba04f7d2c02ab4f7",
+      "size_bytes": 228,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/backup-plain/extensions.conf",
+      "source_path": "etc/asterisk/backup-plain/extensions.conf",
+      "sha256": "5073b07e6c8bcbaf1a60d59e26df7259403fbe396905fe1e4ee361856d04a701",
+      "source_sha256": "5073b07e6c8bcbaf1a60d59e26df7259403fbe396905fe1e4ee361856d04a701",
+      "size_bytes": 636,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/backup-plain/pjsip.conf",
+      "source_path": "etc/asterisk/backup-plain/pjsip.conf",
+      "sha256": "4de5db0880891bb556d2ea2cc5c14ff5e4032347758c1951a39f5a1e3ed84c30",
+      "source_sha256": "e60c7449de340eee85dba7d841d94aae23aa3ec68411f66f7f2caf1bc7230d6b",
+      "size_bytes": 1228,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/extensions.conf",
+      "source_path": "etc/asterisk/extensions.conf",
+      "sha256": "5073b07e6c8bcbaf1a60d59e26df7259403fbe396905fe1e4ee361856d04a701",
+      "source_sha256": "5073b07e6c8bcbaf1a60d59e26df7259403fbe396905fe1e4ee361856d04a701",
+      "size_bytes": 636,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/extensions.conf.before-srtp",
+      "source_path": "etc/asterisk/extensions.conf.before-srtp",
+      "sha256": "5073b07e6c8bcbaf1a60d59e26df7259403fbe396905fe1e4ee361856d04a701",
+      "source_sha256": "5073b07e6c8bcbaf1a60d59e26df7259403fbe396905fe1e4ee361856d04a701",
+      "size_bytes": 636,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/keys/asterisk2.crt",
+      "source_path": "etc/asterisk/keys/asterisk2.crt",
+      "sha256": "48045646da33a330a1ac06fce6abb45d4ba37f2a8016a206939d68bcdf964cec",
+      "source_sha256": "48045646da33a330a1ac06fce6abb45d4ba37f2a8016a206939d68bcdf964cec",
+      "size_bytes": 1411,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/keys/ca.crt",
+      "source_path": "etc/asterisk/keys/ca.crt",
+      "sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "source_sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "size_bytes": 1513,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/pjsip.conf",
+      "source_path": "etc/asterisk/pjsip.conf",
+      "sha256": "7936758a46bce6c6fab6c56973dca8d673363f01a4028b521912a0504449be0a",
+      "source_sha256": "96ba0bbd79452472b5f8e889949b3fc451e79311854b5c0e8135f4506402bcde",
+      "size_bytes": 1672,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/pjsip.conf.before-srtp",
+      "source_path": "etc/asterisk/pjsip.conf.before-srtp",
+      "sha256": "690b02a7c892947c16f89f2f85fd79bafef0eafc1209d8c872da68a850b427af",
+      "source_sha256": "6e5d549c24f4630b654d9d352f8c90e3ffbc7b5b16c781684c83f6cf1ab20624",
+      "size_bytes": 1619,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/pjsip.conf.before-tls",
+      "source_path": "etc/asterisk/pjsip.conf.before-tls",
+      "sha256": "4de5db0880891bb556d2ea2cc5c14ff5e4032347758c1951a39f5a1e3ed84c30",
+      "source_sha256": "e60c7449de340eee85dba7d841d94aae23aa3ec68411f66f7f2caf1bc7230d6b",
+      "size_bytes": 1228,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk2/etc/asterisk/pjsip.conf.tls-srtp-alaw",
+      "source_path": "etc/asterisk/pjsip.conf.tls-srtp-alaw",
+      "sha256": "080e050da29277032cd03e8c2c1d7f1df726d64815a40518e36f9d48d98d1d98",
+      "source_sha256": "5f6020d648b75180e0686687c675d0ec8e59e2bc9512797c43db9f7e1fe4df66",
+      "size_bytes": 1673,
+      "redacted": true,
+      "notes": "Autentizační údaje maskovány"
+    },
+    {
+      "exported_path": "asterisk2/etc/hosts",
+      "source_path": "etc/hosts",
+      "sha256": "f90bce391274bbbc071b749c444e17378789085ccdd754080ca5eadb3b758e07",
+      "source_sha256": "f90bce391274bbbc071b749c444e17378789085ccdd754080ca5eadb3b758e07",
+      "size_bytes": 321,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-measurements/encrypted/asterisk2_cpu_ram.txt",
+      "source_path": "home/gh44sh/asterisk-measurements/encrypted/asterisk2_cpu_ram.txt",
+      "sha256": "a18181945970eb445ae763007ab0910e5de193b619cd5aafb88e1093e5014086",
+      "source_sha256": "a18181945970eb445ae763007ab0910e5de193b619cd5aafb88e1093e5014086",
+      "size_bytes": 30104,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-measurements/encrypted/asterisk2_encrypted.pcap",
+      "source_path": "home/gh44sh/asterisk-measurements/encrypted/asterisk2_encrypted.pcap",
+      "sha256": "1fa27eacb0e99440f66d506b68cfbcd5ff7d0d652abe8f5a4db58633af376154",
+      "source_sha256": "1fa27eacb0e99440f66d506b68cfbcd5ff7d0d652abe8f5a4db58633af376154",
+      "size_bytes": 2460300,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-measurements/gsm/asterisk2_cpu_ram.txt",
+      "source_path": "home/gh44sh/asterisk-measurements/gsm/asterisk2_cpu_ram.txt",
+      "sha256": "ca697c6bfcd757c66e6b37a5dd38da5fde197e160a40c61404a2c5914365e26c",
+      "source_sha256": "ca697c6bfcd757c66e6b37a5dd38da5fde197e160a40c61404a2c5914365e26c",
+      "size_bytes": 30104,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-measurements/gsm/asterisk2_gsm.pcap",
+      "source_path": "home/gh44sh/asterisk-measurements/gsm/asterisk2_gsm.pcap",
+      "sha256": "552095ca9ae0a121805feed6f1275baae95b0348e522f9fdf3f2f6946f9bfcdd",
+      "source_sha256": "552095ca9ae0a121805feed6f1275baae95b0348e522f9fdf3f2f6946f9bfcdd",
+      "size_bytes": 1293821,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-measurements/plain/asterisk2_cpu_ram.txt",
+      "source_path": "home/gh44sh/asterisk-measurements/plain/asterisk2_cpu_ram.txt",
+      "sha256": "337d2c8895e8f5f61a7f093817d562ea194c3296ee05cfadebd921217000661b",
+      "source_sha256": "337d2c8895e8f5f61a7f093817d562ea194c3296ee05cfadebd921217000661b",
+      "size_bytes": 30104,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-measurements/plain/asterisk2_plain.pcap",
+      "source_path": "home/gh44sh/asterisk-measurements/plain/asterisk2_plain.pcap",
+      "sha256": "750c50c17414138857b2db6b88e68ab96a66300431910007c1a908950671e1bb",
+      "source_sha256": "750c50c17414138857b2db6b88e68ab96a66300431910007c1a908950671e1bb",
+      "size_bytes": 1862499,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-pki/asterisk2.crt",
+      "source_path": "home/gh44sh/asterisk-pki/asterisk2.crt",
+      "sha256": "48045646da33a330a1ac06fce6abb45d4ba37f2a8016a206939d68bcdf964cec",
+      "source_sha256": "48045646da33a330a1ac06fce6abb45d4ba37f2a8016a206939d68bcdf964cec",
+      "size_bytes": 1411,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-pki/asterisk2.csr",
+      "source_path": "home/gh44sh/asterisk-pki/asterisk2.csr",
+      "sha256": "126d723a579172b31d3c2f10fe710ad731b740ad1dea8f66d897cecac38a0f17",
+      "source_sha256": "126d723a579172b31d3c2f10fe710ad731b740ad1dea8f66d897cecac38a0f17",
+      "size_bytes": 895,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/home/gh44sh/asterisk-pki/ca.crt",
+      "source_path": "home/gh44sh/asterisk-pki/ca.crt",
+      "sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "source_sha256": "e841c997da79d0bffe83e24ad555c92f934fadea4a18250536e3c030d8e5815f",
+      "size_bytes": 1513,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/var/log/asterisk/cdr-csv/Master.csv",
+      "source_path": "var/log/asterisk/cdr-csv/Master.csv",
+      "sha256": "6325c23652ea2d5c3c11388fff7b8172ad041d340914597257c572301fb64f04",
+      "source_sha256": "6325c23652ea2d5c3c11388fff7b8172ad041d340914597257c572301fb64f04",
+      "size_bytes": 4127,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/var/log/asterisk/messages.log",
+      "source_path": "var/log/asterisk/messages.log",
+      "sha256": "1880f461a15027951e680e2c127fb530347e35426fc759ab17783a8898dd04cc",
+      "source_sha256": "1880f461a15027951e680e2c127fb530347e35426fc759ab17783a8898dd04cc",
+      "size_bytes": 47270,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    },
+    {
+      "exported_path": "asterisk2/var/log/asterisk/queue_log",
+      "source_path": "var/log/asterisk/queue_log",
+      "sha256": "c4df94591f06744ab6ffddd5c4d0c8e3a02f0e7bb95723724b09208f08f2632c",
+      "source_sha256": "c4df94591f06744ab6ffddd5c4d0c8e3a02f0e7bb95723724b09208f08f2632c",
+      "size_bytes": 228,
+      "redacted": false,
+      "notes": "Bez změny obsahu (kromě případného rozbalení gzip)"
+    }
+  ],
+  "skipped": []
+}

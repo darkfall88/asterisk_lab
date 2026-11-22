@@ -1,0 +1,7 @@
+scenar,rezim,smer,src_ip,dst_ip,pocet_paketu,ip_bytes,bitrate_kbps,window_seconds
+plain,SIP/UDP + RTP / G.711,Asterisk 1 → 2,10.0.10.200,10.0.20.101,1392,278400,37.12,60
+plain,SIP/UDP + RTP / G.711,Asterisk 2 → 1,10.0.20.101,10.0.10.200,2809,561800,74.9067,60
+encrypted,SIP/TLS + SRTP / G.711,Asterisk 1 → 2,10.0.10.200,10.0.20.101,2456,515760,68.768,60
+encrypted,SIP/TLS + SRTP / G.711,Asterisk 2 → 1,10.0.20.101,10.0.10.200,2935,616350,82.18,60
+gsm,SIP/TLS + SRTP / GSM,Asterisk 1 → 2,10.0.10.200,10.0.20.101,3000,249000,33.20,60
+gsm,SIP/TLS + SRTP / GSM,Asterisk 2 → 1,10.0.20.101,10.0.10.200,3000,249000,33.20,60

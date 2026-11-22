@@ -1,0 +1,7 @@
+[v3_leaf]
+basicConstraints=critical,CA:FALSE
+keyUsage=critical,digitalSignature,keyEncipherment
+extendedKeyUsage=serverAuth,clientAuth
+subjectAltName=DNS:asterisk1.lab,IP:10.0.10.200
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid,issuer

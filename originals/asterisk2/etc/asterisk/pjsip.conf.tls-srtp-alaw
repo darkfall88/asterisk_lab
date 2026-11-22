@@ -1,0 +1,94 @@
+; ========================================
+; ASTERISK 2 - Lenovo ThinkPad L380
+; IP: 10.0.20.101
+; Linux Mint 22.2 / Asterisk 20.6.0
+; ========================================
+
+[global]
+type=global
+user_agent=Asterisk2-LAB
+
+; ---------- SIP UDP TRANSPORT ----------
+
+[transport-udp]
+type=transport
+protocol=udp
+bind=10.0.20.101:5060
+
+; ========================================
+; TLS TRANSPORT - ASTERISK 2
+; ========================================
+
+[transport-tls]
+type=transport
+protocol=tls
+bind=10.0.20.101:5061
+
+method=tlsv1_2
+
+cert_file=/etc/asterisk/keys/asterisk2.crt
+priv_key_file=/etc/asterisk/keys/asterisk2.key
+ca_list_file=/etc/asterisk/keys/ca.crt
+
+verify_server=yes
+verify_client=yes
+require_client_cert=yes
+
+
+; ---------- SAMSUNG S24 - SIP 2001 ----------
+
+[2001]
+type=endpoint
+transport=transport-udp
+context=from-phones
+disallow=all
+allow=alaw
+auth=auth2001
+aors=2001
+direct_media=no
+rtp_symmetric=yes
+force_rport=yes
+rewrite_contact=yes
+
+[auth2001]
+type=auth
+auth_type=userpass
+username=2001
+password=[REDACTED_FOR_PUBLICATION]
+
+[2001]
+type=aor
+max_contacts=1
+remove_existing=yes
+qualify_frequency=30
+
+; ========================================
+; SECURE SIP TRUNK - ASTERISK 2 -> 1
+; TLS + SDES-SRTP
+; ========================================
+
+[trunk-a1]
+type=endpoint
+transport=transport-tls
+context=from-a1
+disallow=all
+allow=alaw
+aors=trunk-a1
+direct_media=no
+media_encryption=sdes
+media_encryption_optimistic=no
+identify_by=ip
+
+; ---------- STATIC AOR ----------
+
+[trunk-a1]
+type=aor
+contact=sips:asterisk1.lab:5061
+qualify_frequency=30
+
+; ---------- IP IDENTIFICATION ----------
+
+[trunk-a1-identify]
+type=identify
+endpoint=trunk-a1
+match=10.0.10.200

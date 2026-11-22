@@ -1,0 +1,547 @@
+Linux 7.0.0-43-generic (gh44sh-ThinkPad-L380) 	11/22/26 	_x86_64_	(8 CPU)
+
+12:04:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:17      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:16      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:17      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:18      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:17      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:18      122     13165      6.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:19      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:18      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:19      122     13165      1.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:20      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:19      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:20      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:21      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:20      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:21      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:22      122     13165    0.99    0.99    0.00    0.00    1.98     6  asterisk
+
+12:04:21      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:22      122     13165      1.98      0.00 4374076   87616   0.54  asterisk
+
+12:04:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:23      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:22      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:23      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:24      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:23      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:24      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:25      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:24      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:25      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:26      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:25      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:26      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:27      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:26      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:27      122     13165      4.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:28      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:27      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:28      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:29      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:04:28      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:29      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:30      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:29      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:30      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:31      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:30      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:31      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:32      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:04:31      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:32      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:33      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:32      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:33      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:34      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:33      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:34      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:35      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:34      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:35      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:36      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:35      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:36      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:37      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:36      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:37      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:38      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:37      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:38      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:39      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:04:38      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:39      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:40      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:39      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:40      122     13165      3.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:41      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:40      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:41      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:42      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:41      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:42      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:43      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:04:42      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:43      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:44      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:43      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:44      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:45      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:04:44      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:45      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:46      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:45      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:46      122     13165      5.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:47      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:46      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:47      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:48      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:47      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:48      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:49      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:48      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:49      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:50      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:49      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:50      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:51      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:50      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:51      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:52      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:51      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:52      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:53      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:52      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:53      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:54      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:53      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:54      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:55      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:54      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:55      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:56      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:55      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:56      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:57      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:56      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:57      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:58      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:04:57      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:58      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:04:59      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:04:58      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:04:59      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:04:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:00      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:04:59      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:00      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:01      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:00      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:01      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:02      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:01      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:02      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:03      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:02      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:03      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:04      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:03      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:04      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:04      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:05      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:04      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:05      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:05      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:06      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:05      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:06      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:07      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:06      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:07      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:07      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:08      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:05:07      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:08      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:09      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:08      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:09      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:09      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:10      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:09      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:10      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:10      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:11      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:10      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:11      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:12      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:11      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:12      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:12      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:13      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:05:12      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:13      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:14      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:13      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:14      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:14      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:15      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:05:14      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:15      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:15      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:16      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:15      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:16      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:17      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:16      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:17      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:18      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:17      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:18      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:19      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:18      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:19      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:20      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:19      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:20      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:21      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:20      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:21      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:22      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:05:21      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:22      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:23      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:22      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:23      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:24      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:23      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:24      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:25      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:24      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:25      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:26      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:25      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:26      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:27      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:26      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:27      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:28      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:27      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:28      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:29      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:28      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:29      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:30      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:29      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:30      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:31      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:30      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:31      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:32      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:05:31      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:32      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:33      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:32      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:33      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:34      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:33      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:34      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:35      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:34      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:35      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:36      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:35      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:36      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:37      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:05:36      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:37      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:38      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:37      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:38      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:39      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:38      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:39      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:40      122     13165    1.00    1.00    0.00    0.00    2.00     6  asterisk
+
+12:05:39      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:40      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:41      122     13165    0.00    0.00    0.00    0.00    0.00     6  asterisk
+
+12:05:40      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:41      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:42      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:41      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:42      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:43      122     13165    0.99    0.00    0.00    0.00    0.99     6  asterisk
+
+12:05:42      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:43      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:44      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:43      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:44      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:45      122     13165    1.00    0.00    0.00    0.00    1.00     6  asterisk
+
+12:05:44      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:45      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+12:05:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+12:05:46      122     13165    0.00    1.00    0.00    0.00    1.00     6  asterisk
+
+12:05:45      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+12:05:46      122     13165      0.00      0.00 4374076   87616   0.54  asterisk
+
+Average:      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+Average:      122     13165    0.37    0.57    0.00    0.00    0.93     -  asterisk
+
+Average:      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+Average:      122     13165      0.23      0.00 4374076   87616   0.54  asterisk

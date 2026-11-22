@@ -1,0 +1,91 @@
+; ========================================
+; ASTERISK 1 - Lenovo IdeaPad Gaming
+; IP: 10.0.10.200
+; Linux Mint 22.2 / Asterisk 20.6.0
+; ========================================
+
+[global]
+type=global
+user_agent=Asterisk1-LAB
+
+; ---------- SIP UDP TRANSPORT ----------
+
+[transport-udp]
+type=transport
+protocol=udp
+bind=10.0.10.200:5060
+
+; ========================================
+; TLS TRANSPORT - ASTERISK 1
+; ========================================
+
+[transport-tls]
+type=transport
+protocol=tls
+bind=10.0.10.200:5061
+
+method=tlsv1_2
+
+cert_file=/etc/asterisk/keys/asterisk1.crt
+priv_key_file=/etc/asterisk/keys/asterisk1.key
+ca_list_file=/etc/asterisk/keys/ca.crt
+
+verify_server=yes
+verify_client=yes
+require_client_cert=yes
+
+; ---------- XIAOMI 15 - SIP 1001 ----------
+
+[1001]
+type=endpoint
+transport=transport-udp
+context=from-phones
+disallow=all
+allow=alaw
+auth=auth1001
+aors=1001
+direct_media=no
+rtp_symmetric=yes
+force_rport=yes
+rewrite_contact=yes
+
+[auth1001]
+type=auth
+auth_type=userpass
+username=1001
+password=[REDACTED_FOR_PUBLICATION]
+
+[1001]
+type=aor
+max_contacts=1
+remove_existing=yes
+qualify_frequency=30
+
+; ========================================
+; SIP TRUNK ASTERISK 1 -> ASTERISK 2
+; ========================================
+
+[trunk-a2]
+type=endpoint
+transport=transport-udp
+context=from-a2
+disallow=all
+allow=alaw
+aors=trunk-a2
+direct_media=no
+media_encryption=no
+identify_by=ip
+
+; ---------- STATIC AOR ----------
+
+[trunk-a2]
+type=aor
+contact=sip:10.0.20.101:5060
+qualify_frequency=30
+
+; ---------- IP IDENTIFICATION ----------
+
+[trunk-a2-identify]
+type=identify
+endpoint=trunk-a2
+match=10.0.20.101

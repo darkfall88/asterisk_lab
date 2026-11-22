@@ -1,0 +1,4 @@
+scenar,rezim,ipv4_bytes,udp_payload_bytes,audio_payload_bytes,srtp_tag_bytes,model_kbps_50pps
+plain,SIP/UDP + RTP / G.711,200,172,160,0,80.0
+encrypted,SIP/TLS + SRTP / G.711,210,182,160,10,84.0
+gsm,SIP/TLS + SRTP / GSM,83,55,33,10,33.2

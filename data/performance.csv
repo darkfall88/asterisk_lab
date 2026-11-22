@@ -1,0 +1,7 @@
+scenar,rezim,server,cpu_pct,rss_kib,rss_mib,measurement_seconds
+plain,SIP/UDP + RTP / G.711 A-law,IdeaPad (Asterisk 1),1.63,87084,85.043,90
+plain,SIP/UDP + RTP / G.711 A-law,ThinkPad (Asterisk 2),0.93,87616,85.563,90
+encrypted,SIP/TLS + SDES-SRTP / G.711 A-law,IdeaPad (Asterisk 1),2.11,91865,89.712,90
+encrypted,SIP/TLS + SDES-SRTP / G.711 A-law,ThinkPad (Asterisk 2),1.26,91652,89.504,90
+gsm,SIP/TLS + SDES-SRTP / GSM,IdeaPad (Asterisk 1),2.39,91570,89.424,90
+gsm,SIP/TLS + SDES-SRTP / GSM,ThinkPad (Asterisk 2),1.54,92665,90.493,90
