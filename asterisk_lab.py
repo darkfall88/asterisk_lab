@@ -816,14 +816,14 @@ else:
     ]))
     st.subheader("Použité zdroje")
     st.markdown("""
-    1. [Asterisk 20 – konfigurace res_pjsip](https://docs.asterisk.org/Asterisk_20_Documentation/API_Documentation/Module_Configuration/res_pjsip/).
-    2. [Asterisk – PJSIP Configuration Sections and Relationships](https://docs.asterisk.org/Configuration/Channel-Drivers/SIP/Configuring-res_pjsip/PJSIP-Configuration-Sections-and-Relationships/).
-    3. [RFC 3261 – SIP](https://www.rfc-editor.org/rfc/rfc3261).
-    4. [RFC 3550 – RTP](https://www.rfc-editor.org/rfc/rfc3550).
-    5. [RFC 3711 – Secure Real-time Transport Protocol](https://www.rfc-editor.org/rfc/rfc3711).
-    6. [RFC 3551 – RTP Profile / GSM Full Rate](https://www.rfc-editor.org/rfc/rfc3551).
-    7. [Wireshark User's Guide – RTP Analysis](https://www.wireshark.org/docs/wsug_html_chunked/ChTelRTP.html).
-    8. [Streamlit – oficiální dokumentace](https://docs.streamlit.io/).
+    1. [Asterisk 20 – konfigurace res_pjsip](https://docs.asterisk.org/Asterisk_20_Documentation/API_Documentation/Module_Configuration/res_pjsip/)
+    2. [Asterisk – PJSIP Configuration Sections and Relationships](https://docs.asterisk.org/Configuration/Channel-Drivers/SIP/Configuring-res_pjsip/PJSIP-Configuration-Sections-and-Relationships/)
+    3. [RFC 3261 – SIP](https://www.rfc-editor.org/rfc/rfc3261)
+    4. [RFC 3550 – RTP](https://www.rfc-editor.org/rfc/rfc3550)
+    5. [RFC 3711 – Secure Real-time Transport Protocol](https://www.rfc-editor.org/rfc/rfc3711)
+    6. [RFC 3551 – RTP Profile / GSM Full Rate](https://www.rfc-editor.org/rfc/rfc3551)
+    7. [Wireshark User's Guide – RTP Analysis](https://www.wireshark.org/docs/wsug_html_chunked/ChTelRTP.html)
+    8. [Streamlit – oficiální dokumentace](https://docs.streamlit.io/)
     9. **Vlastní laboratorní data:** konfigurace ústředen, příkazové výstupy Asterisk a OpenSSL,
        PCAP záznamy, výstupy TShark a pidstat, snímky MizuDroid a fotografie zapojení,
        22. listopadu 2026.
